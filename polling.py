@@ -317,8 +317,10 @@ if __name__ == '__main__':
     # Starts the Scheduled jobs
     sched.start()
     
+    print("Polling task started...")
+    
     # Runs an infinite loop
     while True:
-        sleep(1)
+        sleep(10)
         
     
